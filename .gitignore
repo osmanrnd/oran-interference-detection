@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+Untitled*.ipynb
+
+# Datasets & model artifacts (not tracked — generated from the testbed / training)
+cleaned/
+datasets/
+data/*
+# Local tf.data on-disk cache (created when running notebooks locally)
+.tf_cache/
+tf_cache/
+# ...but DO keep the small illustrative sample set
+!data/samples/
+!data/samples/**
+*.h5
+*.keras
+*.tflite
+*.ckpt
+*.pb
+saved_model/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

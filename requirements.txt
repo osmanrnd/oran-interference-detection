@@ -1,0 +1,11 @@
+# Core dependencies for the interference-classification notebooks.
+# Tested on Google Colab (Python 3.10+, TensorFlow 2.x, A100 GPU).
+tensorflow>=2.12
+numpy
+matplotlib
+pillow
+scikit-learn
+seaborn
+
+# Note: `google.colab` (used to mount Google Drive) ships with Colab only.
+# When running locally, remove the drive.mount cell and set `directory` to a local path.
